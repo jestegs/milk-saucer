@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/milkkxea/public_html
+    - export DEPLOYPATH=/home/milkkxea/public_html/
     - /bin/cp index.html $DEPLOYPATH
