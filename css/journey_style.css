@@ -1,0 +1,10 @@
+body {
+    background-image: url(../images/backgrounds/dry_brushed.jpg);
+    background-repeat: no-repeat;
+}
+
+canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
