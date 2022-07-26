@@ -20,6 +20,10 @@ hr {
 
 
 .ancientBG {
+    position: absolute;
+    left: 0;
+    top: 0;
+    
     width: 640px;
     height: 480px;
 

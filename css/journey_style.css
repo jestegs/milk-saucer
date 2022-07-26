@@ -4,7 +4,25 @@ body {
 }
 
 canvas {
+    pointer-events: none;
     position: absolute;
     left: 0;
     top: 0;
+}
+
+
+
+a:link, a:visited {
+    color: magenta;
+}
+
+a.headBack {
+    position: absolute;
+    left: 100px;
+    bottom: 10px;
+}
+a.pushOn {
+    position: absolute;
+    right: 100px;
+    bottom: 10px;
 }
