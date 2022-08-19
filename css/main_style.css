@@ -1,0 +1,32 @@
+html {
+    height: 100%;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin-left: 10%;
+    background-image: repeating-radial-gradient(
+        wheat 50%, white 100%
+    );
+}
+
+h1, h2, h3 {
+    text-decoration: overline;
+}
+
+a {
+    text-decoration: overline;
+    color: red;
+}
+a:visited {
+    color: palevioletred;
+}
+
+
+
+a.backHome {
+    text-decoration: none;
+    color: black;
+}
+a.backHome:hover {
+    color: grey;
+}
