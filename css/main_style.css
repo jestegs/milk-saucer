@@ -4,9 +4,12 @@ html {
 body {
     font-family: Arial, sans-serif;
     margin-left: 10%;
+    margin-right: 10%;
     background-image: repeating-radial-gradient(
         wheat 50%, white 100%
     );
+
+    text-align: center;
 }
 
 h1, h2, h3 {
@@ -29,4 +32,10 @@ a.backHome {
 }
 a.backHome:hover {
     color: grey;
+}
+
+.textContainer {
+    text-align: left;
+    display: inline-block;
+    background-color: white;
 }

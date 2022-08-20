@@ -3,6 +3,9 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/milkkxea/public_html/
     - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp notebook.html $DEPLOYPATH
+    - /bin/cp gallery.html $DEPLOYPATH
+    - /bin/cp blog.html $DEPLOYPATH
     - /bin/cp favicon.ico $DEPLOYPATH
     - /bin/cp -R css $DEPLOYPATH
     - /bin/cp -R images $DEPLOYPATH
