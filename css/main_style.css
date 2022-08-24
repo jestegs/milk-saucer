@@ -5,9 +5,10 @@ body {
     font-family: Arial, sans-serif;
     margin-left: 10%;
     margin-right: 10%;
-    background-image: repeating-radial-gradient(
+    /*background-image: repeating-radial-gradient(
         wheat 50%, white 100%
-    );
+    );*/
+    background-color: beige;
 
     text-align: center;
 }
@@ -35,7 +36,8 @@ a.backHome:hover {
 }
 
 .textContainer {
+    width: 80%;
     text-align: left;
     display: inline-block;
-    background-color: white;
+    background-color: beige;
 }
