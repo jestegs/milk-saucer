@@ -1,0 +1,9 @@
+.blogBody {
+    padding: 5% 20%;
+}
+.blogBody h3, h4 {
+    text-decoration: none;
+}
+.blogEntry {
+    text-indent: 40px;
+}
